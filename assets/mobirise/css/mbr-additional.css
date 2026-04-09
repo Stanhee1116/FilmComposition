@@ -21,20 +21,20 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 5.2rem;
   line-height: 1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.25rem;
+  font-size: 6.5rem;
 }
 .display-2 {
-  font-family: 'Inter Tight', sans-serif;
-  font-size: 4rem;
+  font-family: 'Lobster Two', display;
+  font-size: 2rem;
   line-height: 1;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 .display-4 {
   font-family: 'Inter Tight', sans-serif;
@@ -46,11 +46,11 @@ body {
 }
 .display-5 {
   font-family: 'Inter Tight', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1.5;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 .display-7 {
   font-family: 'Inter Tight', sans-serif;
@@ -67,19 +67,19 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 4rem;
+    font-size: 4.16rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.64rem;
+    font-size: calc( 2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.3 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -87,9 +87,9 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
     font-size: 1.12rem;
@@ -99,14 +99,14 @@ body {
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
-    font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 3.64rem;
+    font-size: calc( 2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.1 * (2.4699999999999998rem + (5.2 - 2.4699999999999998) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-2 {
-    font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.3 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-4 {
     font-size: 1.12rem;
@@ -114,9 +114,9 @@ body {
     line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-5 {
-    font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.44rem;
+    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
     font-size: 1.12rem;
@@ -784,106 +784,346 @@ a {
   outline-offset: 2px !important;
   transition: outline 0.2s ease-in-out;
 }
-.cid-vggL30IDEY {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
+.cid-vgapJNtQTy {
+  display: flex;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
 }
-.cid-vggL30IDEY .item-subtitle {
-  line-height: 1.2;
-  color: #000000;
+.cid-vgapJNtQTy .mbr-overlay {
+  background-color: #f92c50;
+  opacity: 0.5;
 }
-.cid-vggL30IDEY img,
-.cid-vggL30IDEY .item-img {
+.cid-vgapJNtQTy .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgapJNtQTy .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
   height: 100%;
-  height: 400px;
-  object-fit: cover;
+  position: absolute;
+  top: 0;
 }
-.cid-vggL30IDEY .item:focus,
-.cid-vggL30IDEY span:focus {
-  outline: none;
-}
-.cid-vggL30IDEY .item {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-vggL30IDEY .item {
-    margin-bottom: 1rem;
-  }
-}
-.cid-vggL30IDEY .item-wrapper {
-  position: relative;
-  border-radius: 4px;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-}
-.cid-vggL30IDEY .mbr-section-title {
-  color: #232323;
-}
-.cid-vggL30IDEY .mbr-text,
-.cid-vggL30IDEY .mbr-section-btn {
-  color: #232323;
-}
-.cid-vggL30IDEY .item-title {
-  color: #232323;
-}
-.cid-vggL30IDEY .content-head {
-  max-width: 800px;
-}
-.cid-vggL3ko186 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #edefeb;
-}
-.cid-vggL3ko186 .mbr-text {
-  color: #000000;
-}
-.cid-vggL3ko186 .mbr-section-subtitle {
-  color: #000000;
-}
-.cid-vggL3ko186 .mbr-section-title {
-  color: #000000;
-  text-align: center;
-}
-.cid-vggL3ko186 .mbr-text,
-.cid-vggL3ko186 .item .mbr-section-btn {
-  text-align: left;
-}
-.cid-vggL3ko186 .item-wrapper {
-  background: #ffffff;
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-vggL3ko186 .item-wrapper {
-    padding: 2rem 1.5rem;
-    margin-bottom: 1rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-vggL3ko186 .item-wrapper {
-    padding: 2.25rem;
-  }
+.cid-vgapJNtQTy .content-wrap {
+  padding: 5rem 1rem;
 }
 @media (min-width: 992px) {
-  .cid-vggL3ko186 .item-wrapper {
-    padding: 4rem;
+  .cid-vgapJNtQTy .content-wrap {
+    padding: 5rem 3rem;
   }
 }
-.cid-vggL3ko186 .details-icon {
-  color: #9fe870;
-  padding-right: 0.5rem;
+@media (min-width: 768px) {
+  .cid-vgapJNtQTy {
+    align-items: center;
+  }
+  .cid-vgapJNtQTy .row {
+    justify-content: center;
+  }
 }
-.cid-vggL3ko186 .mbr-card-subtitle {
-  color: #232323;
-  text-align: left;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-vgapJNtQTy .content-wrap {
+    min-width: 50%;
+  }
 }
-.cid-vggL3ko186 .details .details-item {
-  display: inline-flex;
-  padding-right: 1rem;
+@media (max-width: 767px) {
+  .cid-vgapJNtQTy {
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .cid-vgapJNtQTy .mbr-row {
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  .cid-vgapJNtQTy .content-wrap {
+    width: 100%;
+  }
 }
-.cid-vggL3ko186 .mbr-tag,
-.cid-vggL3ko186 .tags-wrapper {
-  color: #000000;
+.cid-vgapJNtQTy .mbr-section-title {
+  text-align: center;
+}
+.cid-vgapJNtQTy .mbr-text,
+.cid-vgapJNtQTy .mbr-section-btn {
+  text-align: center;
+}
+.cid-vgaTa1fEbh {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgaTa1fEbh .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgaTa1fEbh .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vgaTa1fEbh .row {
+  align-items: stretch;
+  justify-content: center;
+}
+.cid-vgaTa1fEbh .row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.cid-vgaTa1fEbh .row .img-item img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 1px;
+}
+.cid-vgaTa1fEbh img,
+.cid-vgaTa1fEbh .item-img {
+  width: 100%;
+  object-position: 50% top;
+  height: 500px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-vgaTa1fEbh img,
+  .cid-vgaTa1fEbh .item-img {
+    max-height: 350px;
+  }
+}
+.cid-vgaTa1fEbh .mbr-section-title {
+  text-align: center;
+  color: #f7f7f7;
+}
+.cid-vgaRsDqVRw {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgaRsDqVRw .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgaRsDqVRw .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vgaRsDqVRw .row {
+  align-items: stretch;
+  justify-content: center;
+}
+.cid-vgaRsDqVRw .row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.cid-vgaRsDqVRw .row .img-item img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 1px;
+}
+.cid-vgaRsDqVRw mbr-img-caption {
+  color: #f7f7f7;
+}
+.cid-vgaRsDqVRw mbr-img-caption {
+  color: #ffd7ef;
+}
+.cid-vgaLTPKEhS {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgaLTPKEhS .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgaLTPKEhS .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vgaLTPKEhS .row {
+  align-items: stretch;
+  justify-content: center;
+}
+.cid-vgaLTPKEhS .row .img-item {
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.cid-vgaLTPKEhS .row .img-item img {
+  width: 100%;
+  object-fit: cover;
+  min-height: 1px;
+}
+.cid-vgaLTPKEhS img,
+.cid-vgaLTPKEhS .item-img {
+  width: 100%;
+  object-position: 50% top;
+  height: 500px;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  .cid-vgaLTPKEhS img,
+  .cid-vgaLTPKEhS .item-img {
+    max-height: 350px;
+  }
+}
+.cid-vgaLTPKEhS .mbr-section-title {
+  text-align: center;
+  color: #f7f7f7;
+}
+.cid-vgaNGZz4h4 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgaNGZz4h4 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgaNGZz4h4 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vgaNGZz4h4 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vgaNGZz4h4 .row {
+  flex-direction: row-reverse;
+}
+.cid-vgaNGZz4h4 img {
+  width: 100%;
+}
+.cid-vgaZSA3uP4 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgaZSA3uP4 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgaZSA3uP4 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vgaZSA3uP4 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vgaZSA3uP4 .row {
+  flex-direction: row-reverse;
+}
+.cid-vgaZSA3uP4 img {
+  width: 100%;
+}
+.cid-vgaZSA3uP4 .mbr-text {
+  color: #f7f7f7;
+}
+.cid-vgb0DeCNu8 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgb0DeCNu8 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgb0DeCNu8 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vgb0DeCNu8 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vgb0DeCNu8 .row {
+  flex-direction: row-reverse;
+}
+.cid-vgb0DeCNu8 img {
+  width: 100%;
+}
+.cid-vgb3no90dd {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgb3no90dd .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgb3no90dd .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vgb3no90dd .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vgb3no90dd .row {
+  flex-direction: row-reverse;
+}
+.cid-vgb3no90dd img {
+  width: 100%;
+}
+.cid-vgb3no90dd .mbr-text {
+  color: #f7f7f7;
+}
+.cid-vgb3oxlUTE {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/michoff-architecture-4007755.jpg");
+}
+.cid-vgb3oxlUTE .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vgb3oxlUTE .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-vgb3oxlUTE .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-vgb3oxlUTE .row {
+  flex-direction: row-reverse;
+}
+.cid-vgb3oxlUTE img {
+  width: 100%;
 }
